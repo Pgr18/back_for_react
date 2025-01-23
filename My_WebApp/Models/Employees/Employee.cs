@@ -11,7 +11,7 @@ namespace My_WebApp.Models.Employees
         public string Email { get; set; }
         public string PhoneNumber { get; set; }
         public DateTime BirthDate { get; set; }
-        public User User { get; set; }
+        //public User User { get; set; }
         public List<Education> Education { get; set; }
         public List<WorkExperience> WorkExperience { get; set; }
     }

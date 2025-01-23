@@ -77,22 +77,13 @@ namespace My_WebApp.Controllers
 
         private ClaimsIdentity GetIdentity(string username, string password)
         {
-            //var user  = _users.FirstOrDefault(u => u.Login == username && u.Password == password);
+            
 
             var user = _context.Users.FirstOrDefault(u => u.Login == username);
-            if (user == null)
+            if (user == null || !AuthUtils.VerifyPassword(password, user.Password))
             {
                 return null;
             }
-            if (!AuthUtils.VerifyPassword(password, user.Password))
-            {
-                return null;
-            }
-
-            var employee = _context.Employees
-                .Include(e => e.Education)
-                .Include(e => e.WorkExperience)
-                .FirstOrDefault(e => e.User.Id == user.Id);
 
             var claims = new List<Claim>
                 {
