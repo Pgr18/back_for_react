@@ -8,6 +8,7 @@ using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
 using My_WebApp.DbContexts;
 using My_WebApp.Utils;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace My_WebApp.Controllers
@@ -87,6 +88,12 @@ namespace My_WebApp.Controllers
             {
                 return null;
             }
+
+            var employee = _context.Employees
+                .Include(e => e.Education)
+                .Include(e => e.WorkExperience)
+                .FirstOrDefault(e => e.User.Id == user.Id);
+
             var claims = new List<Claim>
                 {
                     new Claim(ClaimsIdentity.DefaultNameClaimType, user.Login),
