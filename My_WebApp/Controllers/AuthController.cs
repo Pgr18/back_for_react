@@ -6,6 +6,8 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
+using My_WebApp.DbContexts;
+using My_WebApp.Utils;
 
 
 namespace My_WebApp.Controllers
@@ -16,9 +18,30 @@ namespace My_WebApp.Controllers
     {
         private List<User> _users = new List<User>
         {
-            new User { Login = "admin@mail.ru", Password = "12345", Role = "admin"},
-            new User { Login = "user@mail.ru", Password = "123456", Role = "user" }
+            new User { Login = "admin@mail.ru", Password = "12345", Role = "admin" }
         };
+        //    new User { Login = "user@mail.ru", Password = "123456", Role = "user" }
+        //};
+
+        private ApplicationContext _context;
+
+        public AuthController()
+        {
+            _context = new ApplicationContext();
+        }
+
+        [HttpPost("/register")]
+        public IActionResult Register(string username, string password)
+        {
+            _context.Users.Add(new User
+            {
+                Login = username,
+                Password = AuthUtils.HashPassword(password),
+                Role = "user"
+            });
+            var id = _context.SaveChanges();
+            return Ok(id);
+        }
 
         [HttpPost("/login")]
 
@@ -53,20 +76,27 @@ namespace My_WebApp.Controllers
 
         private ClaimsIdentity GetIdentity(string username, string password)
         {
-            var user  = _users.FirstOrDefault(u => u.Login == username && u.Password == password);
-            if (user != null)
+            //var user  = _users.FirstOrDefault(u => u.Login == username && u.Password == password);
+
+            var user = _context.Users.FirstOrDefault(u => u.Login == username);
+            if (user == null)
             {
-                var claims = new List<Claim>
+                return null;
+            }
+            if (!AuthUtils.VerifyPassword(password, user.Password))
+            {
+                return null;
+            }
+            var claims = new List<Claim>
                 {
                     new Claim(ClaimsIdentity.DefaultNameClaimType, user.Login),
                     new Claim(ClaimsIdentity.DefaultRoleClaimType, user.Role),
                 };
 
-                var claimsIdentity = new ClaimsIdentity(claims, "Token",
-                    ClaimsIdentity.DefaultNameClaimType, ClaimsIdentity.DefaultRoleClaimType);
-                return claimsIdentity;
-            }
-            return null;
+            var claimsIdentity = new ClaimsIdentity(claims, "Token",
+                ClaimsIdentity.DefaultNameClaimType, ClaimsIdentity.DefaultRoleClaimType);
+            return claimsIdentity;
+
         }
 
     }
