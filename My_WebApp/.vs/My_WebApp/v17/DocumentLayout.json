@@ -3,24 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|c:\\users\\paulr\\onedrive\\documents\\my_client-server\\back_for_react\\my_webapp\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|solutionrelative:controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|c:\\users\\paulr\\onedrive\\documents\\my_client-server\\back_for_react\\my_webapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|c:\\users\\paulr\\onedrive\\documents\\my_client-server\\back_for_react\\my_webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|c:\\users\\paulr\\onedrive\\documents\\my_client-server\\back_for_react\\my_webapp\\models\\dto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|solutionrelative:models\\dto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|c:\\users\\paulr\\onedrive\\documents\\my_client-server\\back_for_react\\my_webapp\\models\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|solutionrelative:models\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Migrations\\20250124171657_RmEmployeeFromEduAndWorkExp1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250124171657_RmEmployeeFromEduAndWorkExp1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|c:\\users\\paulr\\onedrive\\documents\\my_client-server\\back_for_react\\my_webapp\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|solutionrelative:controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|c:\\users\\paulr\\onedrive\\documents\\my_client-server\\back_for_react\\my_webapp\\models\\dto\\employeerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|solutionrelative:models\\dto\\employeerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|c:\\users\\paulr\\onedrive\\documents\\my_client-server\\back_for_react\\my_webapp\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|solutionrelative:controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|c:\\users\\paulr\\onedrive\\documents\\my_client-server\\back_for_react\\my_webapp\\models\\employees\\education.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|solutionrelative:models\\employees\\education.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Migrations\\20250123210812_WithoutUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250123210812_WithoutUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|c:\\users\\paulr\\onedrive\\documents\\my_client-server\\back_for_react\\my_webapp\\models\\dto\\educationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|solutionrelative:models\\dto\\educationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|c:\\users\\paulr\\onedrive\\documents\\my_client-server\\back_for_react\\my_webapp\\models\\dto\\workexperiencerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|solutionrelative:models\\dto\\workexperiencerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Migrations\\20250124162544_RmEmployeeFromEduAndWorkExp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250124162544_RmEmployeeFromEduAndWorkExp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|c:\\users\\paulr\\onedrive\\documents\\my_client-server\\back_for_react\\my_webapp\\models\\employees\\workexperience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|solutionrelative:models\\employees\\workexperience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|c:\\users\\paulr\\onedrive\\documents\\my_client-server\\back_for_react\\my_webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|c:\\users\\paulr\\onedrive\\documents\\my_client-server\\back_for_react\\my_webapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -33,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|c:\\users\\paulr\\onedrive\\documents\\my_client-server\\back_for_react\\my_webapp\\dbcontexts\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|solutionrelative:dbcontexts\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|c:\\users\\paulr\\onedrive\\documents\\my_client-server\\back_for_react\\my_webapp\\models\\employees\\workexperience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|solutionrelative:models\\employees\\workexperience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|c:\\users\\paulr\\onedrive\\documents\\my_client-server\\back_for_react\\my_webapp\\models\\departments\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -68,6 +96,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|c:\\users\\paulr\\onedrive\\documents\\my_client-server\\back_for_react\\my_webapp\\migrations\\20250123203758_departmentsandemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|solutionrelative:migrations\\20250123203758_departmentsandemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|c:\\users\\paulr\\onedrive\\documents\\my_client-server\\back_for_react\\my_webapp\\migrations\\20250123210812_withoutuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69286B49-23FD-42D6-B618-B9D4FC5D64FB}|My_WebApp.csproj|solutionrelative:migrations\\20250123210812_withoutuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -77,21 +109,112 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Models\\DTO\\RegisterRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\RegisterRequestDto.cs",
+              "ToolTip": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Models\\DTO\\RegisterRequestDto.cs",
+              "RelativeToolTip": "Models\\DTO\\RegisterRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T17:19:33.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Models\\DTO\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\LoginRequestDto.cs",
+              "ToolTip": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Models\\DTO\\LoginRequestDto.cs",
+              "RelativeToolTip": "Models\\DTO\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T17:18:03.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250124171657_RmEmployeeFromEduAndWorkExp1.cs",
+              "DocumentMoniker": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Migrations\\20250124171657_RmEmployeeFromEduAndWorkExp1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250124171657_RmEmployeeFromEduAndWorkExp1.cs",
+              "ToolTip": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Migrations\\20250124171657_RmEmployeeFromEduAndWorkExp1.cs",
+              "RelativeToolTip": "Migrations\\20250124171657_RmEmployeeFromEduAndWorkExp1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T17:16:57.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAIAwwDEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T16:26:19.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Education.cs",
+              "DocumentMoniker": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Models\\Employees\\Education.cs",
+              "RelativeDocumentMoniker": "Models\\Employees\\Education.cs",
+              "ToolTip": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Models\\Employees\\Education.cs",
+              "RelativeToolTip": "Models\\Employees\\Education.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T20:32:40.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAqwC4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T17:10:09.189Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
+              "Title": "EducationRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_webApp\\Models\\DTO\\EducationRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\EducationRequestDto.cs",
+              "ToolTip": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_webApp\\Models\\DTO\\EducationRequestDto.cs",
+              "RelativeToolTip": "Models\\DTO\\EducationRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T16:27:45.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "DepartmentsController.cs",
               "DocumentMoniker": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Controllers\\DepartmentsController.cs",
               "RelativeDocumentMoniker": "Controllers\\DepartmentsController.cs",
               "ToolTip": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Controllers\\DepartmentsController.cs",
               "RelativeToolTip": "Controllers\\DepartmentsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCMAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T21:12:19.89Z",
               "EditorCaption": ""
@@ -99,6 +222,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "EmployeeRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_webApp\\Models\\DTO\\EmployeeRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\EmployeeRequestDto.cs",
+              "ToolTip": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_webApp\\Models\\DTO\\EmployeeRequestDto.cs",
+              "RelativeToolTip": "Models\\DTO\\EmployeeRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T16:24:07.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WorkExperienceRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Models\\DTO\\WorkExperienceRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\WorkExperienceRequestDto.cs",
+              "ToolTip": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Models\\DTO\\WorkExperienceRequestDto.cs",
+              "RelativeToolTip": "Models\\DTO\\WorkExperienceRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T16:26:58.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250124162544_RmEmployeeFromEduAndWorkExp.cs",
+              "DocumentMoniker": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Migrations\\20250124162544_RmEmployeeFromEduAndWorkExp.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250124162544_RmEmployeeFromEduAndWorkExp.cs",
+              "ToolTip": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Migrations\\20250124162544_RmEmployeeFromEduAndWorkExp.cs",
+              "RelativeToolTip": "Migrations\\20250124162544_RmEmployeeFromEduAndWorkExp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T16:25:44.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -106,51 +268,24 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-23T21:06:29.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T21:06:29.047Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "WorkExperience.cs",
               "DocumentMoniker": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Models\\Employees\\WorkExperience.cs",
               "RelativeDocumentMoniker": "Models\\Employees\\WorkExperience.cs",
               "ToolTip": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Models\\Employees\\WorkExperience.cs",
               "RelativeToolTip": "Models\\Employees\\WorkExperience.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T20:34:43.499Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Education.cs",
-              "DocumentMoniker": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Models\\Employees\\Education.cs",
-              "RelativeDocumentMoniker": "Models\\Employees\\Education.cs",
-              "ToolTip": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Models\\Employees\\Education.cs",
-              "RelativeToolTip": "Models\\Employees\\Education.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T20:32:40.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAAAFQAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T17:10:09.189Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -158,12 +293,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T17:04:08.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T17:04:08.908Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 24,
               "Title": "20250123210812_WithoutUser.cs",
               "DocumentMoniker": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Migrations\\20250123210812_WithoutUser.cs",
               "RelativeDocumentMoniker": "Migrations\\20250123210812_WithoutUser.cs",
@@ -171,12 +305,11 @@
               "RelativeToolTip": "Migrations\\20250123210812_WithoutUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T21:08:12.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T21:08:12.251Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Models\\Employees\\Employee.cs",
               "RelativeDocumentMoniker": "Models\\Employees\\Employee.cs",
@@ -184,12 +317,11 @@
               "RelativeToolTip": "Models\\Employees\\Employee.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAcwA0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T20:28:04.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T20:28:04.644Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "Department.cs",
               "DocumentMoniker": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Models\\Departments\\Department.cs",
               "RelativeDocumentMoniker": "Models\\Departments\\Department.cs",
@@ -197,12 +329,11 @@
               "RelativeToolTip": "Models\\Departments\\Department.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T20:27:07.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T20:27:07.675Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "20250123203758_DepartmentsAndEmployees.cs",
               "DocumentMoniker": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Migrations\\20250123203758_DepartmentsAndEmployees.cs",
               "RelativeDocumentMoniker": "Migrations\\20250123203758_DepartmentsAndEmployees.cs",
@@ -210,12 +341,11 @@
               "RelativeToolTip": "Migrations\\20250123203758_DepartmentsAndEmployees.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T20:37:58.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T20:37:58.457Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
               "Title": "20250123192425_Initial.cs",
               "DocumentMoniker": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Migrations\\20250123192425_Initial.cs",
               "RelativeDocumentMoniker": "Migrations\\20250123192425_Initial.cs",
@@ -223,12 +353,11 @@
               "RelativeToolTip": "Migrations\\20250123192425_Initial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T19:24:26.134Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T19:24:26.134Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "AuthUtils.cs",
               "DocumentMoniker": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Utils\\AuthUtils.cs",
               "RelativeDocumentMoniker": "Utils\\AuthUtils.cs",
@@ -236,12 +365,11 @@
               "RelativeToolTip": "Utils\\AuthUtils.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwBYAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T19:30:56.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T19:30:56.968Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "ApplicationContext.cs",
               "DocumentMoniker": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\DbContexts\\ApplicationContext.cs",
               "RelativeDocumentMoniker": "DbContexts\\ApplicationContext.cs",
@@ -249,12 +377,11 @@
               "RelativeToolTip": "DbContexts\\ApplicationContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T19:16:05.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T19:16:05.813Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "AuthOptions.cs",
               "DocumentMoniker": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\AuthOptions.cs",
               "RelativeDocumentMoniker": "AuthOptions.cs",
@@ -262,12 +389,11 @@
               "RelativeToolTip": "AuthOptions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T16:49:34.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T16:49:34.525Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -275,12 +401,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-23T15:39:56.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T15:39:56.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "Microsoft.NET.TargetFrameworkInference.targets",
               "DocumentMoniker": "C:\\Program Files (x86)\\dotnet\\sdk\\6.0.418\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files (x86)\\dotnet\\sdk\\6.0.418\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
@@ -288,12 +413,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files (x86)\\dotnet\\sdk\\6.0.418\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
               "ViewState": "AgIAAIIAAAAAAAAAAAAgwI8AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-01-23T15:39:19.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T15:39:19.686Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\paulr\\OneDrive\\Documents\\my_client-server\\back_for_react\\My_WebApp\\Models\\Users\\User.cs",
               "RelativeDocumentMoniker": "Models\\Users\\User.cs",
@@ -301,8 +425,7 @@
               "RelativeToolTip": "Models\\Users\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T15:37:58.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T15:37:58.561Z"
             }
           ]
         }

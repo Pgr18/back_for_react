@@ -9,6 +9,7 @@ using Newtonsoft.Json;
 using My_WebApp.DbContexts;
 using My_WebApp.Utils;
 using Microsoft.EntityFrameworkCore;
+using My_WebApp.Models.DTO;
 
 
 namespace My_WebApp.Controllers
@@ -32,23 +33,28 @@ namespace My_WebApp.Controllers
         }
 
         [HttpPost("/register")]
-        public IActionResult Register(string username, string password)
+        public IActionResult Register([FromBody] RegisterRequestDto registerRequest)
         {
+            var user = _context.Users.FirstOrDefault(u => u.Login == registerRequest.Login);
+            if (user != null)
+            {
+                return BadRequest("User with this login already exists");
+            }
             _context.Users.Add(new User
             {
-                Login = username,
-                Password = AuthUtils.HashPassword(password),
+                Login = registerRequest.Login,
+                Password = AuthUtils.HashPassword(registerRequest.Password),
                 Role = "user"
             });
-            var id = _context.SaveChanges();
-            return Ok(id);
+            _context.SaveChanges();
+            return Ok();
         }
 
         [HttpPost("/login")]
 
-        public IActionResult Login (string username, string password)
+        public IActionResult Login([FromBody] LoginRequestDto loginRequest)
         {
-           var identity = GetIdentity(username, password);
+           var identity = GetIdentity(loginRequest.Login,loginRequest.Password);
             if (identity == null)
             {
                 return BadRequest(new { errorText = "Invalid username or password!" });

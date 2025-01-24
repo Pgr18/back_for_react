@@ -10,6 +10,6 @@ namespace My_WebApp.Models.Employees
         public int Id { get; set; }
         public int WorkedYears { get; set; } = 0;
         public string? Description { get; set; } = null;
-        public Employee Employee { get; set; }
+        //public Employee Employee { get; set; }
     }
 }

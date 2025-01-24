@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using My_WebApp.DbContexts;
 using My_WebApp.Models.Departments;
 
@@ -19,7 +20,10 @@ namespace My_WebApp.Controllers
 
         public IEnumerable<Department> GetDepartments()
         {
-            return _context.Departments.ToList();
+            return _context.Departments
+                .Include( d=> d.Employees).ThenInclude(e=>e.Education)
+                .Include(d=>d.Employees).ThenInclude(e=>e.WorkExperience)
+                .ToList();
         }
 
         [HttpPost("departmnet")]
