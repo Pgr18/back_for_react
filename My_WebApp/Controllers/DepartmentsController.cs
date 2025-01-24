@@ -25,6 +25,7 @@ namespace My_WebApp.Controllers
             return _context.Departments
                 .Include( d=> d.Employees).ThenInclude(e=>e.Education)
                 .Include(d=>d.Employees).ThenInclude(e=>e.WorkExperience)
+                .Include(d => d.Employees).ThenInclude(e => e.UserFiles)
                 .ToList();
         }
 

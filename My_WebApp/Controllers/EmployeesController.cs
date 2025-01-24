@@ -22,7 +22,7 @@ namespace My_WebApp.Controllers
 
         public IEnumerable<Employee> GetEmployees()
         {
-            return _context.Employees.Include(e => e.WorkExperience).Include(e => e.Education).ToList();
+            return _context.Employees.Include(e => e.WorkExperience).Include(e => e.Education).Include(e=>e.UserFiles).ToList();
         }
 
         [HttpPost("employee")]

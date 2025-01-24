@@ -14,5 +14,6 @@ namespace My_WebApp.Models.Employees
         //public User User { get; set; }
         public List<Education> Education { get; set; }
         public List<WorkExperience> WorkExperience { get; set; }
+        public List<UserFile> UserFiles { get; set; }
     }
 }
