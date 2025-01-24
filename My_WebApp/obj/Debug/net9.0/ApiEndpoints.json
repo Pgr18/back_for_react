@@ -1,5 +1,53 @@
 [
   {
+    "ContainingType": "My_WebApp.Controllers.FilesController",
+    "Method": "DeleteFile",
+    "RelativePath": "api/Files/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "My_WebApp.Controllers.FilesController",
+    "Method": "DownloadFile",
+    "RelativePath": "api/Files/download",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "My_WebApp.Controllers.FilesController",
+    "Method": "UploadFile",
+    "RelativePath": "api/Files/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileDto",
+        "Type": "My_WebApp.Models.DTO.FileRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "My_WebApp.Controllers.DepartmentsController",
     "Method": "GetDepartments",
     "RelativePath": "Departments",

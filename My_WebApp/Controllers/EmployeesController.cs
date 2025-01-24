@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using My_WebApp.DbContexts;
 using My_WebApp.Models.DTO;
@@ -17,6 +18,7 @@ namespace My_WebApp.Controllers
             _context = new ApplicationContext();
         }
         [HttpGet("employees")]
+        [Authorize(Roles = "admin,manager")]
 
         public IEnumerable<Employee> GetEmployees()
         {
@@ -24,6 +26,7 @@ namespace My_WebApp.Controllers
         }
 
         [HttpPost("employee")]
+        [Authorize(Roles = "admin,manager")]
         public IActionResult CreateEmployee([FromBody] EmployeeRequestDto employeeDto)
         {
             var department = _context.Departments.Include(d => d.Employees)
@@ -52,6 +55,7 @@ namespace My_WebApp.Controllers
         }
 
         [HttpPut("employee")]
+        [Authorize(Roles = "admin,manager")]
         public IActionResult UpdateEmployee([FromBody] Employee employee)
         {
             var _employee = _context.Employees.FirstOrDefault(e => e.Id == employee.Id);
@@ -70,6 +74,7 @@ namespace My_WebApp.Controllers
         }
 
         [HttpDelete("employee")]
+        [Authorize(Roles = "admin,manager")]
         public IActionResult DeleteEmployee(int id)
         {
             var _employee = _context.Employees.FirstOrDefault(e => e.Id == id);
@@ -84,6 +89,7 @@ namespace My_WebApp.Controllers
 
 
         [HttpPost("workexperience")]
+        [Authorize(Roles = "admin,manager")]
 
         public IActionResult AddWorkExperience([FromBody]WorkExperienceRequestDto workExperience)
         {
@@ -107,6 +113,7 @@ namespace My_WebApp.Controllers
         }
 
         [HttpDelete("workexperience")]
+        [Authorize(Roles = "admin,manager")]
         public IActionResult DeleteWorkExperience(int id)
         {
             var _workExperience = _context.WorkExperience.FirstOrDefault(we => we.Id == id);
@@ -121,6 +128,7 @@ namespace My_WebApp.Controllers
 
 
         [HttpPost("education")]
+        [Authorize(Roles = "admin,manager")]
 
         public IActionResult AddEducation([FromBody] EducationRequestDto education)
         {
@@ -144,6 +152,7 @@ namespace My_WebApp.Controllers
         }
 
         [HttpDelete("education")]
+        [Authorize(Roles = "admin,manager")]
         public IActionResult DeleteEducation(int id)
         {
             var _education = _context.Educations.FirstOrDefault(we => we.Id == id);
