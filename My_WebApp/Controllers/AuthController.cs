@@ -76,6 +76,7 @@ namespace My_WebApp.Controllers
             {
                 access_token = encodedJwt,
                 usename = identity.Name,
+                role = identity.Claims.FirstOrDefault(c => c.Type.Contains("role"))?.Value
             };
 
             return Ok(JsonConvert.SerializeObject(response));

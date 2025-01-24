@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using My_WebApp.DbContexts;
 using My_WebApp.Models.Departments;
+using My_WebApp.Models.DTO;
 
 namespace My_WebApp.Controllers
 {
@@ -32,9 +33,9 @@ namespace My_WebApp.Controllers
         [HttpPost("departmnet")]
         [Authorize(Roles ="admin")]
 
-        public IActionResult AddDepartments(string name, string? description)
+        public IActionResult AddDepartments([FromBody] AddDepartmentRequestDto addDepartmentDto)
         {
-            var department = _context.Departments.Add(new Department { Name = name, Description = description });
+            var department = _context.Departments.Add(new Department { Name = addDepartmentDto.Name, Description = addDepartmentDto.Description });
             _context.SaveChanges();
 
             return Ok(department.Entity?.Id ?? 0);
@@ -43,13 +44,13 @@ namespace My_WebApp.Controllers
         [HttpPut("department")]
         [Authorize(Roles = "admin")]
 
-        public IActionResult UpdateDepartment(int id, string name, string? description)
+        public IActionResult UpdateDepartment([FromBody] UpdateDepartmentRequestDto updateDepartmentDto)
         {
-            var department = _context.Departments.FirstOrDefault(d => d.Id == id);
+            var department = _context.Departments.FirstOrDefault(d => d.Id == updateDepartmentDto.Id);
             if (department != null)
             {
-                department.Name = name;
-                department.Description = description;
+                department.Name = updateDepartmentDto.Name;
+                department.Description = updateDepartmentDto.Description;
                 _context.SaveChanges();
                 return Ok();
             }
