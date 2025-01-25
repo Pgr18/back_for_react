@@ -1,10 +1,8 @@
-﻿using My_WebApp.Models.Employees;
-
-namespace My_WebApp.Models.DTO
+﻿namespace My_WebApp.Models.DTO
 {
-    public class EmployeeRequestDto
+    public class EmployeeUpdateRequestDto
     {
-        public int DepartmentId { get; set; }
+        public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string MiddleName { get; set; }

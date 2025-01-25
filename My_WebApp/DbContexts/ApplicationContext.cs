@@ -15,7 +15,7 @@ namespace My_WebApp.DbContexts
         public DbSet<UserFile> UserFiles { get; set; } = null;
         public ApplicationContext()
         {
-            //Database.EnsureCreated(); //????
+            AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehaviour",true);
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
