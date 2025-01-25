@@ -3,21 +3,20 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using My_WebApp;
 
+const string ClienAppCors = "ClienAppCors";
 
-const string ClientAppCors = "ClientAppCors";
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy(name: ClientAppCors, policy =>
+    options.AddPolicy(name: ClienAppCors, policy =>
     {
         policy.WithOrigins("http://localhost:3000")
-        .AllowAnyHeader()
-        .AllowAnyMethod();//https?
+            .AllowAnyHeader()
+            .AllowAnyMethod();
     });
 });
 
-// Add services to the container.
 builder.Services.AddAuthorization();
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
@@ -34,7 +33,9 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidateIssuerSigningKey = true
         };
     });
+
 builder.Services.AddControllers();
+
 
 builder.Services.AddSwaggerGen();
 builder.Services.AddSwaggerGen(c =>
@@ -52,7 +53,7 @@ builder.Services.AddSwaggerGen(c =>
         Scheme = "Bearer",
         BearerFormat = "JWT",
         In = ParameterLocation.Header,
-        Description = "Enter token in format 'bearer<space>token'"
+        Description = "Enter token in format 'bearer[space]token'"
     });
     c.AddSecurityRequirement(new OpenApiSecurityRequirement
     {
@@ -65,34 +66,27 @@ builder.Services.AddSwaggerGen(c =>
                     Id = "Bearer"
                 }
             },
-            new string[] { }
+            new string[] {}
         }
     });
 });
 
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 
-if (app.Environment.IsDevelopment())
-{
-    app.MapOpenApi();
-}
-
 app.UseHttpsRedirection();
-app.UseCors(ClientAppCors);
+app.UseCors(ClienAppCors);
 app.UseAuthentication();
 app.UseAuthorization();
 
 
 app.UseSwagger();
-app.UseSwaggerUI(c =>
-{
+app.UseSwaggerUI(c => {
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "API V1");
 });
+
 app.MapControllers();
 
 app.Run();

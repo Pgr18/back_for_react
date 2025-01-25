@@ -923,7 +923,7 @@
     "securitySchemes": {
       "Bearer": {
         "type": "apiKey",
-        "description": "Enter token in format 'bearer<space>token'",
+        "description": "Enter token in format 'bearer[space]token'",
         "name": "Authorization",
         "in": "header"
       }
