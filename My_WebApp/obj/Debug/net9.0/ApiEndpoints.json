@@ -219,7 +219,7 @@
     "Parameters": [
       {
         "Name": "employee",
-        "Type": "My_WebApp.Models.Employees.Employee",
+        "Type": "My_WebApp.Models.DTO.EmployeeUpdateRequestDto",
         "IsRequired": true
       }
     ],

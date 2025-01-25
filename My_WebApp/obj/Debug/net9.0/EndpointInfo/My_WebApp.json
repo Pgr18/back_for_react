@@ -345,17 +345,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Employee"
+                "$ref": "#/components/schemas/EmployeeUpdateRequestDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Employee"
+                "$ref": "#/components/schemas/EmployeeUpdateRequestDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Employee"
+                "$ref": "#/components/schemas/EmployeeUpdateRequestDto"
               }
             }
           }
@@ -693,7 +693,7 @@
           },
           "birthDate": {
             "type": "string",
-            "format": "date-time"
+            "nullable": true
           },
           "education": {
             "type": "array",
@@ -748,7 +748,41 @@
           },
           "birthDate": {
             "type": "string",
-            "format": "date-time"
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EmployeeUpdateRequestDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "middleName": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "birthDate": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -889,7 +923,7 @@
     "securitySchemes": {
       "Bearer": {
         "type": "apiKey",
-        "description": "Enter token in format 'bearer<space>token'",
+        "description": "Enter token in format 'bearer[space]token'",
         "name": "Authorization",
         "in": "header"
       }

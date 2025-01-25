@@ -14,16 +14,11 @@ using My_WebApp.Models.DTO;
 
 namespace My_WebApp.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
+    
     public class AuthController : ControllerBase
     {
-        private List<User> _users = new List<User>
-        {
-            new User { Login = "admin@mail.ru", Password = "12345", Role = "admin" }
-        };
-        //    new User { Login = "user@mail.ru", Password = "123456", Role = "user" }
-        //};
 
         private ApplicationContext _context;
 
