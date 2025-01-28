@@ -115,6 +115,22 @@
   },
   {
     "ContainingType": "My_WebApp.Controllers.DepartmentsController",
+    "Method": "AddDepartments",
+    "RelativePath": "Departments/department",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addDepartmentDto",
+        "Type": "My_WebApp.Models.DTO.AddDepartmentRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "My_WebApp.Controllers.DepartmentsController",
     "Method": "UpdateDepartment",
     "RelativePath": "Departments/department",
     "HttpMethod": "PUT",
@@ -141,22 +157,6 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "My_WebApp.Controllers.DepartmentsController",
-    "Method": "AddDepartments",
-    "RelativePath": "Departments/departmnet",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "addDepartmentDto",
-        "Type": "My_WebApp.Models.DTO.AddDepartmentRequestDto",
-        "IsRequired": true
       }
     ],
     "ReturnTypes": []

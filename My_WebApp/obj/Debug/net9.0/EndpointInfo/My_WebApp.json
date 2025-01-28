@@ -187,7 +187,7 @@
         }
       }
     },
-    "/Departments/departmnet": {
+    "/Departments/department": {
       "post": {
         "tags": [
           "Departments"
@@ -216,9 +216,7 @@
             "description": "OK"
           }
         }
-      }
-    },
-    "/Departments/department": {
+      },
       "put": {
         "tags": [
           "Departments"
