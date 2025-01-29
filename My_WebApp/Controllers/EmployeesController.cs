@@ -33,12 +33,12 @@ namespace My_WebApp.Controllers
                 .FirstOrDefault(d => d.Id == employeeDto.DepartmentId);
             if (department != null)
             {
-                var bd = DateTime.Now;
-                DateTime.TryParse(employeeDto.BirthDate, out bd);
+                //var bd = DateTime.Now;
+                //DateTime.TryParse(, out bd);
 
                 var _employee = _context.Employees.Add(new Employee
                 {
-                    BirthDate = bd.ToString(),
+                    BirthDate = employeeDto.BirthDate,
                     Email = employeeDto.Email,
                     FirstName = employeeDto.FirstName,
                     LastName = employeeDto.LastName,
@@ -64,10 +64,10 @@ namespace My_WebApp.Controllers
             var _employee = _context.Employees.FirstOrDefault(e => e.Id == employee.Id);
             if (_employee != null)
             {
-                var bd = DateTime.Now;
-                DateTime.TryParse(employee.BirthDate, out bd);
+                //var bd = DateTime.Now;
+               // DateTime.TryParse(employee.BirthDate, out bd);
 
-                _employee.BirthDate = bd.ToString();
+                _employee.BirthDate = employee.BirthDate;
                 _employee.Email = employee.Email;
                 _employee.FirstName = employee.FirstName;
                 _employee.LastName = employee.LastName;

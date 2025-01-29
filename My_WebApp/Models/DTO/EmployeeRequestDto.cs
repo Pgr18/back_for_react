@@ -1,6 +1,4 @@
-﻿using My_WebApp.Models.Employees;
-
-namespace My_WebApp.Models.DTO
+﻿namespace My_WebApp.Models.DTO
 {
     public class EmployeeRequestDto
     {

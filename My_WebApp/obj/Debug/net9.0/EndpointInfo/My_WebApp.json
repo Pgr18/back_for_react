@@ -187,7 +187,7 @@
         }
       }
     },
-    "/Departments/departmnet": {
+    "/Departments/department": {
       "post": {
         "tags": [
           "Departments"
@@ -216,9 +216,7 @@
             "description": "OK"
           }
         }
-      }
-    },
-    "/Departments/department": {
+      },
       "put": {
         "tags": [
           "Departments"
@@ -489,8 +487,8 @@
         }
       }
     },
-    "/api/Files/download": {
-      "get": {
+    "/Files/download": {
+      "post": {
         "tags": [
           "Files"
         ],
@@ -520,7 +518,7 @@
         }
       }
     },
-    "/api/Files/upload": {
+    "/Files/upload": {
       "post": {
         "tags": [
           "Files"
@@ -551,17 +549,18 @@
         }
       }
     },
-    "/api/Files/delete": {
+    "/Files/delete": {
       "delete": {
         "tags": [
           "Files"
         ],
         "parameters": [
           {
-            "name": "systemName",
+            "name": "id",
             "in": "query",
             "schema": {
-              "type": "string"
+              "type": "integer",
+              "format": "int32"
             }
           }
         ],

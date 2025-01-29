@@ -30,7 +30,7 @@ namespace My_WebApp.Controllers
                 .ToList();
         }
 
-        [HttpPost("departmnet")]
+        [HttpPost("department")]
         [Authorize(Roles ="admin")]
 
         public IActionResult AddDepartments([FromBody] AddDepartmentRequestDto addDepartmentDto)
